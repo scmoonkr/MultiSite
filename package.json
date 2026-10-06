@@ -1,0 +1,20 @@
+{
+  "name": "multisite-cms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:init": "node scripts/init-db.mjs",
+    "db:seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "marked": "^18.0.4",
+    "mongodb": "^7.2.0",
+    "nuxt": "^4.4.6",
+    "vue": "^3.5.34"
+  }
+}
